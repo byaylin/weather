@@ -10,7 +10,82 @@
 </head>
 
 <body>
-    
+    <header class="p-3 text-end">
+        <h1 class="display-6">Weather Dashboard</h1>
+    </header>
+    <main class="container"></main>
+        <div class="row">
+            <aside class="col-sm-3 p-2">
+                <h3>Search for a city</h3>
+                <form>
+                    <input id="search" type="text" placeholder="enter city">
+                </form>
+                <button id="searchBtn">Search</button>
+                <ul id="buttonList"></ul>
+            </aside>
+            <section class="col-sm-9 p-2" id="hidden">
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <div class="hidden" id="currentCity">
+                            <h4 id="city"></h4>
+                            <p id="date"></p>
+                            <img id="weatherIcon">
+                            <p id="weather"></p>
+                            <p id="temp"></p>
+                            <p id="wind"></p>
+                            <p id="humidity"></p>
+                        </div>
+                    </div>
+                </div>
+                <h3> 5 day forecast</h3>
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <p id="forecastDate"></p>
+                        <img id="forecastIcon">
+                        <p id="forecastWeather"></p>
+                        <p id="forecastTemp"></p>
+                        <p id="forecastWind"></p>
+                        <p id="forecasthHumidity"></p>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <p id="forecastDate"></p>
+                        <img id="forecastIcon">
+                        <p id="forecastWeather"></p>
+                        <p id="forecastTemp"></p>
+                        <p id="forecastWind"></p>
+                        <p id="forecasthHumidity"></p>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <p id="forecastDate"></p>
+                        <img id="forecastIcon">
+                        <p id="forecastWeather"></p>
+                        <p id="forecastTemp"></p>
+                        <p id="forecastWind"></p>
+                        <p id="forecasthHumidity"></p>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <p id="forecastDate"></p>
+                        <img id="forecastIcon">
+                        <p id="forecastWeather"></p>
+                        <p id="forecastTemp"></p>
+                        <p id="forecastWind"></p>
+                        <p id="forecasthHumidity"></p>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-sm-12 mb-2 p-2 border border-1 border-dark rounded">
+                        <p id="forecastDate"></p>
+                        <img id="forecastIcon">
+                        <p id="forecastWeather"></p>
+                        <p id="forecastTemp"></p>
+                        <p id="forecastWind"></p>
+                        <p id="forecasthHumidity"></p>
+                </div>
+                </div>
+            </section>
+        </div>
 </body>
 <script src="./assets/script.js"></script>
 </html>
