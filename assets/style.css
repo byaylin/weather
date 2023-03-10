@@ -1,0 +1,33 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(to bottom right, rgb(237, 237, 152), rgb(190, 159, 214)) ;
+}
+
+body{
+    background-color: rgb(199, 184, 200);
+}
+
+h1{
+    letter-spacing: -1px;
+}
+
+h4{
+    letter-spacing: -1px;
+}
+
+#hidden{
+    display: none;
+}
+
+button{
+    background-color: beige;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+ul{
+    list-style: none;
+}
